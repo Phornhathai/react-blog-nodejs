@@ -1,10 +1,13 @@
 .write{
-    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 100vw;
 
 }
 .writeImg{
+    width: 70%;
     margin-left: 150px;
-    width: 70vw;
     height: 250px;
     border-radius: 10px;
     object-fit: cover;
@@ -60,6 +63,7 @@
     border-radius: 10px;
     cursor: pointer;
     font-size: 16px;
+    margin: 10px 300px;
 }
 
 
